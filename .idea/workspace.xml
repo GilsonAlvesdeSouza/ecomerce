@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9364ced-6dee-4c3c-9750-364617725369" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/admin/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/admin/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/admin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/admin/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/admin/changelog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/admin/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/admin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/admin/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/admin/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/admin/starter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/admin/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/PageAdmin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/.htaccess" afterDir="false" />
-    </list>
+    <list default="true" id="a9364ced-6dee-4c3c-9750-364617725369" name="Default Changelist" comment="Criação do PageAmin e tpl admin" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="182">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="e#47#62#0#PHP" expanded="true" />
               </folding>
@@ -144,6 +123,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Gilson Alves &lt;gilsonalves6@icloud.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -300,12 +284,20 @@
       <workItem from="1546002971226" duration="9039000" />
       <workItem from="1546095373549" duration="180000" />
       <workItem from="1546432271094" duration="4061000" />
-      <workItem from="1546608696934" duration="7304000" />
+      <workItem from="1546608696934" duration="7585000" />
     </task>
+    <task id="LOCAL-00001" summary="Criação do PageAmin e tpl admin">
+      <created>1546637691043</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546637691043</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25171000" />
+    <option name="totallyTimeSpent" value="25452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1600" y="23" width="1600" height="877" extended-state="0" />
@@ -337,7 +329,8 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Criação do PageAmin e tpl admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação do PageAmin e tpl admin" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../conf/php7.1.2/php.ini">
@@ -511,8 +504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="182">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="e#47#62#0#PHP" expanded="true" />
           </folding>
