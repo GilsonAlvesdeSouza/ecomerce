@@ -62,7 +62,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/admin/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
+            <state relative-caret-position="-1007">
               <caret line="208" column="47" lean-forward="true" selection-start-line="208" selection-start-column="47" selection-end-line="208" selection-end-column="47" />
             </state>
           </provider>
@@ -284,7 +284,7 @@
       <workItem from="1546095373549" duration="180000" />
       <workItem from="1546432271094" duration="4061000" />
       <workItem from="1546608696934" duration="14866000" />
-      <workItem from="1546685091586" duration="7505000" />
+      <workItem from="1546685091586" duration="7736000" />
     </task>
     <task id="LOCAL-00001" summary="Criação do PageAmin e tpl admin">
       <created>1546637691043</created>
@@ -304,11 +304,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40238000" />
+    <option name="totallyTimeSpent" value="40469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1600" y="23" width="1600" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49868765" visible="true" weight="0.1784339" />
       <window_info id="Structure" order="1" sideWeight="0.5013123" side_tool="true" weight="0.16688062" />
@@ -338,7 +337,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação do PageAmin e tpl admin" />
     <MESSAGE value="Correção do erro da pagina do adm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correção do erro da pagina do adm" />
+    <MESSAGE value="Tela de login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tela de login" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../conf/php7.1.2/php.ini">
@@ -569,7 +569,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
+        <state relative-caret-position="-1007">
           <caret line="208" column="47" lean-forward="true" selection-start-line="208" selection-start-column="47" selection-end-line="208" selection-end-column="47" />
         </state>
       </provider>
