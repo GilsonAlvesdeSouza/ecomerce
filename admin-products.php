@@ -32,7 +32,7 @@ $app->get("/admin/products", function (){
 
 		$products->save();
 
-		header("Location: /admin/produtcs");
+		header("Location: /admin/products");
 		exit;
 	});
 ?>

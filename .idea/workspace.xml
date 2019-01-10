@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9364ced-6dee-4c3c-9750-364617725369" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin-categories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-products.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/Products.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/products-create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/products-update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/header.03134615a3a5ac0abdd63bbe3bc9f1e9.rtpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views-cache/header.03134615a3a5ac0abdd63bbe3bc9f1e9.rtpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-products.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin-products.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin-products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="72" column="2" selection-start-line="72" selection-start-column="2" selection-end-line="72" selection-end-column="2" />
+            <state relative-caret-position="612">
+              <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
               <folding>
                 <element signature="e#7#28#0#PHP" expanded="true" />
               </folding>
@@ -256,51 +244,6 @@
             <path>
               <item name="ecomerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecomerce" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecomerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecomerce" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="hcodebr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecomerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecomerce" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="hcodebr" type="462c0819:PsiDirectoryNode" />
-              <item name="php-classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecomerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecomerce" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="hcodebr" type="462c0819:PsiDirectoryNode" />
-              <item name="php-classes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecomerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecomerce" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="hcodebr" type="462c0819:PsiDirectoryNode" />
-              <item name="php-classes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecomerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecomerce" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="hcodebr" type="462c0819:PsiDirectoryNode" />
-              <item name="php-classes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="Products.php" type="88303cf5:PhpFileNode" />
-            </path>
-            <path>
-              <item name="ecomerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecomerce" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -308,6 +251,11 @@
               <item name="ecomerce" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecomerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecomerce" type="462c0819:PsiDirectoryNode" />
+              <item name="views-cache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecomerce" type="b2602c69:ProjectViewProjectNode" />
@@ -387,7 +335,7 @@
       <workItem from="1546951335584" duration="9196000" />
       <workItem from="1547031757273" duration="227000" />
       <workItem from="1547044451110" duration="18337000" />
-      <workItem from="1547126829692" duration="4120000" />
+      <workItem from="1547126829692" duration="5577000" />
     </task>
     <task id="LOCAL-00001" summary="Criação do PageAmin e tpl admin">
       <created>1546637691043</created>
@@ -438,15 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1547086802345</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Site - produtos">
+      <created>1547134281172</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547134281172</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107031000" />
+    <option name="totallyTimeSpent" value="108488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49868765" visible="true" weight="0.21244635" />
       <window_info id="Structure" order="1" sideWeight="0.5013123" side_tool="true" weight="0.16688062" />
@@ -481,7 +435,8 @@
     <MESSAGE value="recuperar senha" />
     <MESSAGE value="Admin - categorias" />
     <MESSAGE value="Site - categorias" />
-    <option name="LAST_COMMIT_MESSAGE" value="Site - categorias" />
+    <MESSAGE value="Site - produtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Site - produtos" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/res/admin/starter.html">
@@ -795,8 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin-products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="72" column="2" selection-start-line="72" selection-start-column="2" selection-end-line="72" selection-end-column="2" />
+        <state relative-caret-position="612">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
           <folding>
             <element signature="e#7#28#0#PHP" expanded="true" />
           </folding>
