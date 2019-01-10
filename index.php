@@ -2,6 +2,7 @@
 	session_start();
 	require_once("vendor/autoload.php");
 
+	use Hcode\Model\Category;
 	use Hcode\Model\User;
 	use Hcode\Page;
 	use Hcode\PageAdmin;
@@ -163,7 +164,7 @@
 	/**
 	 * rota para o envio do formulário esqueci a senha
 	 */
-	$app->post("/admin/forgot", function (){
+	$app->post("/admin/forgot", function () {
 
 		$user = User::getForgot($_POST["email"]);
 
@@ -171,7 +172,7 @@
 		exit;
 	});
 
-	$app->get("/admin/forgot/sent", function (){
+	$app->get("/admin/forgot/sent", function () {
 		$page = new PageAdmin([
 				"header" => false,
 				"footer" => false
@@ -179,13 +180,13 @@
 		$page->setTpl("forgot-sent");
 	});
 
-	$app->get("/admin/forgot/reset", function(){
+	$app->get("/admin/forgot/reset", function () {
 
 		$user = User::ValidForgotDecrypt($_GET["code"]);
 
 		$page = new PageAdmin([
-			"header"=>false,
-			"footer"=>false
+				"header" => false,
+				"footer" => false
 		]);
 		$page->setTpl("forgot-reset", array(
 
@@ -194,27 +195,95 @@
 		));
 	});
 
-	$app->post("/admin/forgot/reset", function (){
+	$app->post("/admin/forgot/reset", function () {
 		$forgot = User::ValidForgotDecrypt($_POST["code"]);
 
 		User::setForgotUsed($forgot["idrecovery"]);
 
 		$user = new User();
 
-		$user->get((int)$forgot["iduser"]);
+		$user->get((int) $forgot["iduser"]);
 
 		$password = password_hash($_POST["password"], PASSWORD_BCRYPT, ["cost" => 12]);
 
 		$user->setPassword($password);
 
 		$page = new PageAdmin([
-				"header"=>false,
-				"footer"=>false
+				"header" => false,
+				"footer" => false
 		]);
 		$page->setTpl("forgot-reset-success");
 	});
 
+	$app->get("/admin/categories", function () {
 
+		User::verifyLogin();
+
+		$categories = Category::listAll();
+
+		$page = new PageAdmin();
+		$page->setTpl("categories", array(
+				"categories" => $categories
+		));
+	});
+
+	$app->get("/admin/categories/create", function () {
+
+		User::verifyLogin();
+
+		$page = new PageAdmin();
+		$page->setTpl("categories-create");
+	});
+
+	/**
+	 * rota que cria as categorias
+	 */
+	$app->post("/admin/categories/create", function () {
+
+		User::verifyLogin();
+
+		$category = new Category();
+		$category->setData($_POST);
+		$category->save();
+		header("Location: /admin/categories");
+		exit;
+	});
+
+	$app->get("/admin/categories/:idcategory/delete", function ($idcategory) {
+
+		User::verifyLogin();
+
+		$category = new Category();
+		$category->get((int) $idcategory);
+		$category->delete();
+		header("Location: /admin/categories");
+		exit;
+	});
+
+	//Rota para editar as categorias
+	$app->get("/admin/categories/:idcategory", function ($idcategory) {
+
+		User::verifyLogin();
+
+		$category = new Category();
+		$category->get((int) $idcategory);
+		$page = new PageAdmin();
+		$page->setTpl("categories-update", array(
+				'category' => $category->getValues()
+		));
+	});
+
+	$app->post("/admin/categories/:idcategory", function ($idcategory) {
+
+		User::verifyLogin();
+
+		$category = new Category();
+		$category->get((int) $idcategory);
+		$category->setData($_POST);
+		$category->save();
+		header("Location: /admin/categories");
+		exit;
+	});
 
 	$app->run();
 
